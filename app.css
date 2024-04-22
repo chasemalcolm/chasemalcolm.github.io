@@ -7,7 +7,7 @@ h1 {
     animation: fadeInAnimation 1s ease-in-out forwards;
 }
 
-button {
+.custom-button {
     width: fit-content;
     background-color: rgba(0,0,0,0.1);
     color: white;

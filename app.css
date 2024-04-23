@@ -8,7 +8,6 @@ header {
   justify-content: center;
   opacity: 0;
   animation: fadeInNav 1s ease-in-out forwards; /* Apply fade-in animation */
-  position: fixed; /* Set the navbar to fixed position */
 }
 
 @keyframes fadeInNav {
@@ -151,7 +150,7 @@ body {
     height: 100%;
     box-shadow: 0 3px 10px rgba(0,0,0,0.3);
   }
-  
+  /*
   .item {
     width: 200px;
     height: 300px;
@@ -288,4 +287,6 @@ body {
       &:nth-child(5) { left: calc(50% + 280px); }
       &:nth-child(6) { left: calc(50% + 420px); opacity: 0; }
     }
+    
   }
+  */

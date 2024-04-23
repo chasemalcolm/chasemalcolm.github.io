@@ -1,7 +1,7 @@
 function alertButton() {
     alert("hello world")
 }
-
+/*
 const slider = document.querySelector('.slider');
 
 function activate(e) {
@@ -11,3 +11,4 @@ function activate(e) {
 }
 
 document.addEventListener('click',activate,false);
+*/

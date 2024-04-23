@@ -5,12 +5,10 @@ header {
 
 .navbar {
   display: flex;
+  justify-content: center;
   opacity: 0;
   animation: fadeInNav 1s ease-in-out forwards; /* Apply fade-in animation */
   position: fixed; /* Set the navbar to fixed position */
-  justify-content: center;
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
 }
 
 @keyframes fadeInNav {

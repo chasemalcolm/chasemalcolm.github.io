@@ -3,15 +3,14 @@ header {
   padding: 10px 0; /* Padding for top and bottom */
 }
 
-nav {
+.navbar {
   display: flex;
   justify-content: center;
   opacity: 0;
   animation: fadeInNav 1s ease-in-out forwards; /* Apply fade-in animation */
-  position: fixed; /* Fix the position */
-  top: 0; /* Position at the top of the viewport */
-  width: 100%; /* Occupy the full width of the viewport */
-  z-index: 1000; /* Ensure it appears above other content */
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width *
 }
 
 @keyframes fadeInNav {
@@ -26,23 +25,23 @@ nav {
   }
 }
 
-nav ul {
+.navbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-nav ul li {
+.navbar ul li {
   display: inline;
   margin: 0 40px;
 }
 
-nav ul li:first-child {
+.navbar ul li:first-child {
   margin-left: 0;
   animation: fadeInNav 2s ease-in-out forwards; /* Apply fade-in animation */
 }
 
-nav ul li:last-child {
+.navbar ul li:last-child {
   margin-right: 0;
   animation: fadeInNav 2s ease-in-out forwards; /* Apply fade-in animation */
 }
@@ -59,12 +58,12 @@ nav ul li:last-child {
   }
 }
 
-nav ul li:nth-child(2) {
+.navbar ul li:nth-child(2) {
   margin-left: 0;
   animation: fadeInNav1 2s ease-in-out forwards; /* Apply fade-in animation */
 }
 
-nav ul li:nth-child(3) {
+.navbar ul li:nth-child(3) {
   margin-right: 0;
   animation: fadeInNav1 2s ease-in-out forwards; /* Apply fade-in animation */
 }
@@ -84,14 +83,14 @@ nav ul li:nth-child(3) {
   }
 }
 
-nav ul li a {
+.navbar ul li a {
   text-decoration: none;
   color: white;
   font-weight: bold;
   font-size: 20px; /* Specify unit (e.g., px) for font size */
 }
 
-nav ul li a:hover {
+.navbar ul li a:hover {
   text-decoration: underline;
 }
 

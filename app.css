@@ -1,3 +1,29 @@
+header {
+  background-color: #333; /* Background color of the navigation bar */
+  padding: 10px 0; /* Padding for top and bottom */
+}
+
+nav ul {
+  list-style-type: none; /* Remove default list styles */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+  display: inline; /* Display list items horizontally */
+  margin-right: 20px; /* Add some spacing between navigation items */
+}
+
+nav ul li a {
+  text-decoration: none; /* Remove underline from links */
+  color: #fff; /* Text color of links */
+  font-weight: bold; /* Make text bold */
+}
+
+nav ul li a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
 h1 {
     color:white;
 }

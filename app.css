@@ -26,23 +26,17 @@ header {
   }
 }
 
-.navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.navbar ul li {
+.navbar {
   display: inline;
   margin: 0 40px;
 }
 
-.navbar ul li:first-child {
+.navbar:first-child {
   margin-left: 0;
   animation: fadeInNav 2s ease-in-out forwards; /* Apply fade-in animation */
 }
 
-.navbar ul li:last-child {
+.navbar:last-child {
   margin-right: 0;
   animation: fadeInNav 2s ease-in-out forwards; /* Apply fade-in animation */
 }
@@ -59,12 +53,12 @@ header {
   }
 }
 
-.navbar ul li:nth-child(2) {
+.navbar:nth-child(2) {
   margin-left: 0;
   animation: fadeInNav1 2s ease-in-out forwards; /* Apply fade-in animation */
 }
 
-.navbar ul li:nth-child(3) {
+.navbar:nth-child(3) {
   margin-right: 0;
   animation: fadeInNav1 2s ease-in-out forwards; /* Apply fade-in animation */
 }
@@ -84,14 +78,14 @@ header {
   }
 }
 
-.navbar ul li a {
+.navbar a {
   text-decoration: none;
   color: white;
   font-weight: bold;
   font-size: 20px; /* Specify unit (e.g., px) for font size */
 }
 
-.navbar ul li a:hover {
+.navbar a:hover {
   text-decoration: underline;
 }
 

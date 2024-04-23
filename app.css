@@ -26,17 +26,17 @@ header {
   }
 }
 
-.navbar {
+.navbar ol li {
   display: inline;
   margin: 0 40px;
 }
 
-.navbar:first-child {
+.navbar ol li:first-child {
   margin-left: 0;
   animation: fadeInNav 2s ease-in-out forwards; /* Apply fade-in animation */
 }
 
-.navbar:last-child {
+.navbar ol li:last-child {
   margin-right: 0;
   animation: fadeInNav 2s ease-in-out forwards; /* Apply fade-in animation */
 }
@@ -53,12 +53,12 @@ header {
   }
 }
 
-.navbar:nth-child(2) {
+.navbar ol li:nth-child(2) {
   margin-left: 0;
   animation: fadeInNav1 2s ease-in-out forwards; /* Apply fade-in animation */
 }
 
-.navbar:nth-child(3) {
+.navbar ol li:nth-child(3) {
   margin-right: 0;
   animation: fadeInNav1 2s ease-in-out forwards; /* Apply fade-in animation */
 }
@@ -78,20 +78,20 @@ header {
   }
 }
 
-.navbar a {
+.navbar ol li a {
   text-decoration: none;
   color: white;
   font-weight: bold;
   font-size: 20px; /* Specify unit (e.g., px) for font size */
 }
 
-.navbar a:hover {
+.navbar ol li a:hover {
   text-decoration: underline;
 }
 
 /* Override default link colors */
-nav a:link,
-nav a:visited {
+nav ol li a:link,
+nav ol li a:visited {
   color: white;
 }
 

@@ -8,6 +8,10 @@ nav {
   justify-content: center;
   opacity: 0;
   animation: fadeInNav 1s ease-in-out forwards; /* Apply fade-in animation */
+  position: fixed; /* Fix the position */
+  top: 0; /* Position at the top of the viewport */
+  width: 100%; /* Occupy the full width of the viewport */
+  z-index: 1000; /* Ensure it appears above other content */
 }
 
 @keyframes fadeInNav {

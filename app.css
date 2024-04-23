@@ -35,10 +35,46 @@ nav ul li {
 
 nav ul li:first-child {
   margin-left: 0;
+  animation: fadeInNav 2s ease-in-out forwards; /* Apply fade-in animation */
 }
 
 nav ul li:last-child {
   margin-right: 0;
+  animation: fadeInNav 2s ease-in-out forwards; /* Apply fade-in animation */
+}
+
+@keyframes fadeInNav {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1; /* Fade in the middle */
+  }
+  100% {
+    opacity: 1; /* Keep opacity at 1 */
+  }
+}
+
+nav ul li:nth-child(2) {
+  margin-left: 0;
+  animation: fadeInNav1 1s ease-in-out forwards; /* Apply fade-in animation */
+}
+
+nav ul li:nth-child(3) {
+  margin-right: 0;
+  animation: fadeInNav1 1s ease-in-out forwards; /* Apply fade-in animation */
+}
+
+@keyframes fadeInNav1 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1; /* Fade in the middle */
+  }
+  100% {
+    opacity: 1; /* Keep opacity at 1 */
+  }
 }
 
 nav ul li a {

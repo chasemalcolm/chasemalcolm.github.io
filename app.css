@@ -4,8 +4,8 @@ header {
 }
 
 nav {
-  display: flex; /* Use flexbox layout */
-  justify-content: center; /* Center the content horizontally */
+  display: flex;
+  justify-content: center;
 }
 
 nav ul {
@@ -15,43 +15,33 @@ nav ul {
 }
 
 nav ul li {
-  display: inline; /* Display list items horizontally */
-  margin-left: 40px;
-  margin-right: 40px; /* Add some spacing between navigation items */
+  display: inline;
+  margin: 0 40px;
 }
 
 nav ul li:first-child {
-  text-decoration: none; /* Remove underline from links */
-  color: #fff; /* Text color of links */
-  font-weight: bold; /* Make text bold */
-  font-size: 20;
-  margin-left: 0; /* Remove margin from the first list item */
-}
-
-nav ul li:nth-child(2) {
-  text-decoration: none; /* Remove underline from links */
-  color: #fff; /* Text color of links */
-  font-weight: bold; /* Make text bold */
-  font-size: 20;
-}
-
-nav ul li:nth-child(3) {
-  text-decoration: none; /* Remove underline from links */
-  color: #fff; /* Text color of links */
-  font-weight: bold; /* Make text bold */
-  font-size: 20;
+  margin-left: 0;
 }
 
 nav ul li:last-child {
-  text-decoration: none; /* Remove underline from links */
-  color: #fff; /* Text color of links */
-  font-weight: bold; /* Make text bold */
-  font-size: 20;
-  margin-right: 0; /* Remove margin from the last list item */
+  margin-right: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px; /* Specify unit (e.g., px) for font size */
 }
 
 nav ul li a:hover {
-  text-decoration: underline; /* Add underline on hover */
+  text-decoration: underline;
+}
+
+/* Override default link colors */
+nav ul li a:link,
+nav ul li a:visited {
+  color: #fff;
 }
 
 h1 {

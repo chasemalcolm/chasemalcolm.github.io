@@ -3,10 +3,15 @@ header {
   padding: 10px 0; /* Padding for top and bottom */
 }
 
+nav {
+  display: flex; /* Use flexbox layout */
+  justify-content: center; /* Center the content horizontally */
+}
+
 nav ul {
-  list-style-type: none; /* Remove default list styles */
-  margin: 0; /* Remove default margin */
-  padding: 0; /* Remove default padding */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 nav ul li {
@@ -20,6 +25,14 @@ nav ul li a {
   color: #fff; /* Text color of links */
   font-weight: bold; /* Make text bold */
   font-size: 20;
+}
+
+nav ul li:first-child {
+  margin-left: 0; /* Remove margin from the first list item */
+}
+
+nav ul li:last-child {
+  margin-right: 0; /* Remove margin from the last list item */
 }
 
 nav ul li a:hover {

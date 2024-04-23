@@ -43,7 +43,7 @@ nav ul li:last-child {
 
 nav ul li a {
   text-decoration: none;
-  color: white !important;
+  color: white;
   font-weight: bold;
   font-size: 20px; /* Specify unit (e.g., px) for font size */
 }

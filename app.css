@@ -1,5 +1,4 @@
 header {
-  background-color: #333; /* Background color of the navigation bar */
   padding: 10px 0; /* Padding for top and bottom */
 }
 
@@ -11,13 +10,14 @@ nav ul {
 
 nav ul li {
   display: inline; /* Display list items horizontally */
-  margin-right: 20px; /* Add some spacing between navigation items */
+  margin-right: 40px; /* Add some spacing between navigation items */
 }
 
 nav ul li a {
   text-decoration: none; /* Remove underline from links */
   color: #fff; /* Text color of links */
   font-weight: bold; /* Make text bold */
+  font-size: 20;
 }
 
 nav ul li a:hover {

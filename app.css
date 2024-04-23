@@ -90,8 +90,8 @@ header {
 }
 
 /* Override default link colors */
-nav ul li a:link,
-nav ul li a:visited {
+nav a:link,
+nav a:visited {
   color: white;
 }
 
